@@ -1,0 +1,99 @@
+@charset "utf-8";
+
+html {
+  font-size: 100%;
+}
+
+.abril-fatface-regular {
+  font-family: "Abril Fatface", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.biz-udpgothic-regular {
+  font-family: "BIZ UDPGothic", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+
+body {
+  font-family: "Bitcount Grid Single", system-ui;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0,
+    "CRSV" 0.5,
+    "ELSH" 0,
+    "ELXP" 0;
+  line-height: 1.7;
+  color: #432;
+}
+
+a{
+    text-decoration: none;
+}
+img{
+    max-width:100%;
+    
+}
+
+.arpc{
+    width: 1000px;
+    height: auto;
+}
+
+/* レイアウト*/
+.align-center{
+    text-align:center;
+}
+.main-nav{
+    display: flex;
+    justify-content: center;
+    gap: 2.5rem;
+    font-size: 50px;
+    list-style:none;
+}
+.main-nav a{
+    color: rgb(255, 0, 0);
+}
+.main-nav a:hover{
+    color: rgb(30, 0, 255);
+}
+
+/* 全体の外枠 */
+.link-item {
+  text-align: center;
+  display: flex;         /* 横並びにする */
+  align-items: center;   /* 垂直方向を中央に揃える */
+  margin-bottom: 20px;   /* 行間の余白 */
+  gap: 20px;             /* ロゴと文字の間の余白 */
+}
+
+/* ロゴを入れる枠（ここでサイズを固定するのがコツ） */
+.logo-box {
+  width: 150px;          /* ロゴの最大横幅を統一 */
+  display: flex;
+  justify-content: center; /* 横幅の中で中央寄せ */
+}
+
+/* 画像自体の設定 */
+.logo-box img {
+  max-width: 100%;       /* 枠からはみ出さない */
+  height: auto;          /* 縦横比を維持 */
+  display: block;
+}
+
+/* テキストの設定 */
+.link-item a {
+  text-decoration: none; /* 下線を消す（お好みで） */
+  color: #4b0082;        /* 紫色に合わせる */
+  font-weight: bold;
+  font-size: 35px;
+}
+
+.link-item a:hover {
+  text-decoration: underline; /* ホバー時に下線を表示 */
+}
