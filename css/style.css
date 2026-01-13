@@ -45,6 +45,11 @@ img{
     height: auto;
 }
 
+.jaket{
+    width: 500px;
+    height: auto;
+}
+
 /* レイアウト*/
 .align-center{
     text-align:center;
@@ -97,3 +102,17 @@ img{
 .link-item a:hover {
   text-decoration: underline; /* ホバー時に下線を表示 */
 }
+
+.container {
+            text-align: center;
+            letter-spacing: 0.05em;
+        }
+
+        .list-item {
+            margin-bottom: 2rem;
+            font-size: 2.5rem;
+            line-height: 1.2;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
